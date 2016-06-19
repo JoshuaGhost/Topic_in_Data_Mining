@@ -1,0 +1,111 @@
+\begin{thebibliography}{10}
+
+\bibitem{AGGARWAL:framework}
+C.~C. Aggarwal.
+\newblock A framework for diagnosing changes in evolving data streams.
+\newblock {\em ACM SIGMOD '03}, pages 575--586, 2003.
+
+\bibitem{AGGARWAL:diagnosis}
+C.~C. Aggarwal.
+\newblock On change diagnosis in evolving data streams.
+\newblock {\em IEEE Transaction on Knowledge and Data Engineering},
+  17:587--600, 2005.
+
+\bibitem{JAIN:Clustering}
+A.K.Jain, M.N.Murty, and P.J.Flynn.
+\newblock Data clustering: A review.
+\newblock {\em ACM Computing Surveys}, 31(3), September 1999.
+
+\bibitem{ASUR:event}
+S.~Asur, S.~Parthasarathy, and D.~Ucar.
+\newblock An event-based framework for characterizing the evolutionary behavior
+  of interaction graphs.
+\newblock {\em ACM Transactions on Knowledge Discovery from Data}, 3:1--36,
+  2009.
+
+\bibitem{BARON:monitorminingresults}
+S.~Baron and M.~Spiliopoulou.
+\newblock {\em Monitoring change in mining results.}
+\newblock Springer Berlin/Heidelberg, 2001.
+
+\bibitem{BARON:webusagepattern}
+S.~Baron and M.~Spiliopoulou.
+\newblock {\em Monitoring the evolution of web usage patterns}.
+\newblock Springer Berlin/Heidelberg, 2004.
+
+\bibitem{BARTOLINI:panda}
+I.~Bartolini, P.~Ciaccia, I.~Ntoutsi, M.~Patella, and Y.~Theodoridis.
+\newblock The panda framework for comparing patterns.
+\newblock {\em Data and Knowledge Engineering}, 68(2):244--260, 2009.
+
+\bibitem{CHAWATHE:changedetection}
+S.~S. Chawathe and H.~Garcia-Molina.
+\newblock Meaningful change detection in structured data.
+\newblock {\em SIGMOD Record}, 26:26--37, 1997.
+
+\bibitem{CHEN:change}
+K.~Chen and L.~Liu.
+\newblock Detecting the change of clustering structure in categorical data
+  streams.
+\newblock {\em SIAM International Conference on Data Mining}, 2006.
+
+\bibitem{ELNEKAVE}
+S.~Elnekave, M.~Last, and O.~Maimon.
+\newblock {\em Proceeding of the 23th International Conference on Data
+  Engineering}, 2007.
+
+\bibitem{FALKOWSKI:socialnet}
+T.~Falkowski, J.~Bartelheimer, and M.~Spiliopoulou.
+\newblock Mining and visualizing the evolution of subgroups in social networks.
+\newblock {\em IEEE/WIC/ACM International Conference on Web Intelligence},
+  pages 52--58, 2006.
+
+\bibitem{GANTI:datachar}
+V.~Ganti, J.~Gehrke, and R.~Ramakrishnan.
+\newblock A framework for measuring changes in data characteristics.
+\newblock {\em PODS'99}, pages 126--137, 1999.
+
+\bibitem{KALNIS:movingclusters}
+P.~Kalnis, N.~Mamoulis, and S.~Bakiras.
+\newblock {\em On discovering moving clusters in spatio-temporal data.}, volume
+  3633.
+\newblock Springer Berlin/Heidelberg, 2005.
+
+\bibitem{KAUR:concept}
+S.~Kaur, V.~Bhatnagar, S.~Mehta, and S.~Kapoor.
+\newblock Concept drift in unlabeled data stream.
+\newblock {\em Technical report}, 2009.
+
+\bibitem{LI:entropy}
+T.~Li, S.~Ma, and M.~Ogihara.
+\newblock Entropy-based criterion in categorical clustering.
+\newblock {\em ICML'04}, pages 68--, 2004.
+
+\bibitem{OCALLAGHAN:highquality}
+L.~O'Callaghan, N.~Mishra, A.~Meyerson, S.~Guha, and R.~Motwani.
+\newblock Streaming-data algorithms for high-quality clustering.
+\newblock {\em ICDE'02}, pages 685--694, 2002.
+
+\bibitem{OLIVEIRA:bipartite}
+M.~Oliveira and J.~Gama.
+\newblock {\em Bipartite graphs for monitoring clusters transitions.}, volume
+  6065.
+\newblock Springer Berlin/Heidelberg, 2010.
+
+\bibitem{SPILIOPOULOU:tracing}
+M.~Spiliopoulou, I.~Ntoutsi, and Y.~Theodoridis.
+\newblock Tracing cluster transitions for different cluster types.
+\newblock {\em Control and Cybernetics}, 38:239--259, 2009.
+
+\bibitem{SPILIOPOULOU:transition}
+M.~Spiliopoulou, I.~Ntoutsi, Y.~Theodoridis, and R.~Schult.
+\newblock Monic: Modeling and monitoring cluster transitions.
+\newblock {\em 12th ACM SIGKDD'06}, pages 706--711, 2006.
+
+\bibitem{YANG:spatiotemporal}
+H.~Yang, S.~Parthasarathy, and S.~Mehta.
+\newblock A generalized framework for mining spatio-temporal patterns in
+  scientific data.
+\newblock {\em 11th ACM SIGKDD'05}, pages 716--721, 2005.
+
+\end{thebibliography}
