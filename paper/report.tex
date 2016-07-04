@@ -1,4 +1,4 @@
-\documentclass{sig-alternate-05-2015}
+\documentclass{sig-alternate}
 
 
 \begin{document}
@@ -176,9 +176,26 @@ The thresholds' sensitivity analysis concludes that it is survival threshold tha
 \section{Real World Observation Tests}
 After analysing the parameters, the writer at last decides to use $\lambda=0.2$ and $\tau=0.6$ describing the method of identification of transitions, this paper also conducts several experiment with the data from real world, especially from finance territory. Data extracted from Banco de Portugal's Central Balance-Sheet Database and \emph{The data Page} of New York University - Leonard N. Stern School of Business in order to capture and understand the general trends of cluster evolution. The result does work well for the large amount of data set and perform a intuitive accuracy.
 
-\section{Conclusion and Future Work}
-In the paper a framework of monitoring evolutions of clustering structures overtime be introduced. Also the various types of transaction are categorized and the frame work is tested with real-world case using economic and financial data set. The shortage of the current framework is that it dosen't adapt to the fuzzy clustering situation and should be mended at the future.
+\section{Pros and Contras of the Present Work}
+The advantagement of present work is that in the paper a framework of monitoring evolutions of clustering structures overtime be introduced. Also the various types of transactions are categorized and the frame work is tested with real-world case using economic and financial data setd.
+
+However, it still contain some of the shortages. One of them is as mentioned in the paper, this framework dosen't anapt to the fuzzy clustering situation, moreover the complexity of identification of a cluster or a clustering is too high. From which another disadvantage of this work could be seen, that the dimentions and quantity of experimental data are rather low. The other shortages could be identified if we extend our vision to other papers, which are to be mentioned
+
+\section{Related works and Extensions}
+According to the work of Michael Hahsler et.al.\cite{MICHAEL:Markov}, the orders that which transition happens implicates some properties. The largest contribution of works of Michael Hahsler et.al. are:
+\begin{enumerate}
+    \item It builds a Markov model transitions along the time flow, which discribes the relationship of adjacent cluster transitions of the data stream
+    \item In the paper it was mentioned that the identificational data of clusterings should be saved syntheticly, i.e. only the statistical data of a clustering should be saved and thus the data complexity of clustering representation are substantially decreased.
+    \item In order to prevent the current result from being significantly effected by old data, A lazy fading strategy was introduced. Where a expotential factor $2^{-\lambda}$ was used to multiplicate with nearst predecessor. Since this factor is accumulative it could be transformed to $2^{-\lambda \Delta t}$ and multiplicated only when the historical data is needed.
+\end{enumerate}
+
+However, the work of Michael Hasler et.al. also has its disadvantage. For example it doesn't consider the situation that a cluster \emph{dies}, instead, using fading factor to represent one cluster is not effective anymore. Another example is that they only considered there are only one kind of transition occurs between situations. But the data set in real world more than one transitions come out between two observation time point. So there are no exact correspondance between every time point and situation.
+
+Another splendid work from F.E. Correa et.al.\cite{CORREA:tuckerTensor} trade observations with more than one properties over time as a 3-dimensional tensors and applyied Tucker decomposition\cite{TUCKER:three-mode} on them. Since Tucker decomposition is an already existant algorithm, it is easy to find the already existant optimized best practice of it. Also the conduction of Tucker decomposition significantly compresses the data and thus decrease the process complexity. Since the observation with properties over times are treated as a three dimensional tensor, an analysis over three dimensions, especially that over time dimention the transition of observations could be identified.
+
+The main disadvantagement of F.E. Correa et.al. is their framwork doesn't presente an intuitive result. Being illustrated on several 2-D plane over the dimension to analyze, the result usually requires a further implication. And it provided only a general vision on the overall scope of data sets, instead of a micro-scope on behaviour of every clusters. Another frustration is in the region of compute complexity. In the work of F.E. Correa et.al. a tradeoff between computational complexity and explained variation are mentioned during choosing the parameters for Tucker decomposition. Solving this tradeoff requires some priori knowledge, which may fade the applicability of this algorithm.
 
 \bibliographystyle{abbrv}
 \bibliography{sigproc}
+
 \end{document}
